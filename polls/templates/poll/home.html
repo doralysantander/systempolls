@@ -7,26 +7,27 @@
 
 {% block main %}
 
-<div class="row">
-    <div class="col-lg-10 col-lg-offset-2">
+<div class="row-2">
+    <!--<div> <img class="img_home" src="{% static 'img/7.png' %}" height="300" alt="Card image cap"></div>-->
+    <div class="col-lg-12 col-lg-offset-2">
+       <div> <img class=" img-fluid card-img-top img-thumbnail" src="{% static 'img/welcome.png' %}" height="300" width="1400" alt="Card image cap"></div>
         <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Available Polls</h3>
-                <img class="image_home" src='{% static "img/survey.jpg" %}' width="200px" alt="">
+            <div >
+                <h3 class="panel-title p-3  text-center">Choose your question and vote</h3>
             </div>
 
             <ul class="list-group">
                 {% for poll in polls %}
-                <li class="list-group-item">
-                    <strong>{{poll.question}}</strong>
-                    <span class="pull-right">
-                        <a href="{% url 'vote' poll.id %}" class="btn btn-info btn-xs">Vote</a> &nbsp;
-                        <a href="{% url 'results' poll.id %}" class="btn btn-default btn-xs">View Results</a> &nbsp;
+                <li class="list-group-item ">
+                    <div class="d-flex justify-content-start">
+                        <strong>{{poll.question}}</strong>
+                    </div>
+                    <span class="pull-right d-flex justify-content-end ">
+                        <a href="{% url 'vote' poll.id %}" class="btn btn-info btn-xs rounded-pill">Vote</a> &nbsp;
+                        <a href="{% url 'results' poll.id %}" class="btn btn-info rounded-pill">View Results</a> &nbsp;
                     </span>
                 </li>
                 {% endfor %}
-            
-                
                 <li class="list-group-item">
                     <strong>Which operating system do you use?</strong>
                     <span class="pull-right">
@@ -35,10 +36,12 @@
                     </span>
                 </li>
             </ul>
-            
-           
+        <!-- <img align='center' src="https://camo.githubusercontent.com/6f5e3ead776bc722fbfc3da2c8b1454a7a5f27a07b34c0ced075f90a6c25a3be/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313630302f302a4b32574c4d5445784c79696461374f522e676966" width="400">-->
+
         </div>
-        
     </div>
+    
+    
+</div>
 </div>
 {% endblock %}
