@@ -1,12 +1,14 @@
 <!-- results.html -->
 {% extends "poll/base.html" %}
+{% load static %}
 {% block title %}Results{% endblock %}
 {% block main %}
 <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+    <div> <img class=" img-fluid card-img-top img-thumbnail" src="{% static 'img/result.png' %}" height="300" width="1400" alt="Card image cap"></div>
+    <div class="col-lg-12 col-lg-offset-2">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Poll Result</h3>
+                <h3 class="panel-title text-center">Poll Result</h3>
             </div>
             <div class="panel-body">
                 <h3>{{ poll.question }}</h3>
