@@ -5,7 +5,7 @@ from .models import Poll
 
 # Create your views here.
 def home(request):
-    polls = Poll.objects.all()
+    polls = Poll.objects.all()#consulta select * from
     context = {
         'polls': polls    
     }
