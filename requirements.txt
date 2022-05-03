@@ -1,5 +1,5 @@
 appdirs==1.4.3
-apt-clone==0.2.1
+
 apturl==0.5.2
 arandr==0.1.10
 asgiref==3.5.0
