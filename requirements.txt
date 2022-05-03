@@ -1,5 +1,6 @@
 appdirs==1.4.3
-
+apt-clone==0.2.1
+apturl==0.5.2
 arandr==0.1.10
 asgiref==3.5.0
 backports.zoneinfo==0.2.1
@@ -45,6 +46,7 @@ oauthlib==3.1.0
 onboard==1.4.1
 packaging==20.3
 PAM==0.4.2
+pbr==5.8.1
 pexpect==4.6.0
 Pillow==7.0.0
 protobuf==3.6.1
@@ -84,6 +86,7 @@ six==1.14.0
 soupsieve==1.9.5
 sqlparse==0.2.4
 systemd-python==234
+testresources==2.0.1
 tinycss2==1.0.2
 tldextract==2.2.1
 ubuntu-drivers-common==0.0.0
