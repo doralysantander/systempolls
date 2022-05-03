@@ -139,7 +139,7 @@ os.makedirs(STATIC_ROOT, exist_ok=True)
 STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'static'),
 ]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ###agregue esto de un error
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles") 
 STATICFILES_STORAGE='whitenoise.django.GzipManifestStaticFilesStorage'
