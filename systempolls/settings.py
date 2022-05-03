@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhitenoiseMiddleware'
+    'Whitenoise.middleware.WhitenoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'systempolls.urls'
@@ -75,7 +75,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'systempolls.wsgi.application'
-
+#
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
