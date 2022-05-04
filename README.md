@@ -1,4 +1,4 @@
-### Hi, Welcome to Crud Dating 👋 💻 🤓 🖥
+### Hi, Welcome to System Polls 👋 💻 🤓 🖥
 
 <p>Construir un sistema de encuesta en el cual se pueda escoger una pregunta y se pueda votar por las opciones que tiene disponible para finalmente ver la cantidad de votos que tiene cada opción de la pregunta seleccionada..</p>
 
