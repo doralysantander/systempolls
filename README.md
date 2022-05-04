@@ -2,7 +2,7 @@
 
 <p>Construir un sistema de encuesta en el cual se pueda escoger una pregunta y se pueda votar por las opciones que tiene disponible para finalmente ver la cantidad de votos que tiene cada opción de la pregunta seleccionada..</p>
 
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+
 
 <p><em> EducaMas -> <a href="https://educamas.com.co/"> EducaMas - Programate</a>, Regional. 💻 </br>
 </em></p>
