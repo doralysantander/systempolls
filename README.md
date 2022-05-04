@@ -18,6 +18,7 @@
 - 🌐 &nbsp; HTML5 | CSS3 | Bootstrap |
 - 🛢 &nbsp; Sqlite3 | 
 - 💻 &nbsp; Python | Django
+- despliegue aplicacion heroku  https://system-poll.herokuapp.com/
 
 
 ---
