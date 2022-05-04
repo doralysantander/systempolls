@@ -20,22 +20,6 @@
 - 💻 &nbsp; Python | Django
 
 
-<h2>💻 CONNECTION STEPS 💻</h2>
-
-- 1.Step -> Instalar PHP.
-- 2.Step -> Instalar Xampp.
-
-- 3.Step -> La carpeta llamada cita debe alojarse en el Htdocs.
-- 4.step -> Crear Base de datos en Mysql. 
-
-  - <strong> Steps para la base de datos </strong>
-    - A. La base de datos se debe de llamar consultorio.
-    - B. Los campos de de la base de datos son id_cita, nombre, fecha_cita, consulta, documento.
-    - c. Validar la conexión a la base de datos.
-   
-- 5.Step -> correr el proyecto en el navegador en la URL 
-- 6.Step -> Success
-  
 ---
 
 <h2>💻 IMG 💻</h2>
